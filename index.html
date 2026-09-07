@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mappa Grania</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body, html {
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    font-family: Georgia, serif;
+    overflow: hidden;
+  }
+  #header {
+    background: #2a1f14;
+    color: #d4af37;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #d4af37;
+  }
+  #map-container {
+    width: 100%;
+    height: calc(100vh - 48px);
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+</head>
+<body>
+
+<div id="header">Grania</div>
+
+<div id="map-container">
+  <iframe
+    src="https://dl.dropboxusercontent.com/scl/fi/vn5shouqhuf4mpofw6u8p/Grania-2026-09-07-11-11.map?rlkey=npk4d5meuaw0qnil66clpdn57&st=47rz573z&raw=1"
+    allowfullscreen>
+  </iframe>
+</div>
+
+</body>
+</html>
